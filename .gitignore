@@ -1,0 +1,3 @@
+# Hermes / Git Credential Manager temp artifacts
+.hermes-tmp.*
+.DS_Store
