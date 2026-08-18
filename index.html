@@ -184,6 +184,85 @@ width: 100%;
             margin-top: 0;
         }
 
+        /* ===== 華泰名品城・七夕 Couple Missions ===== */
+        .mission-eyebrow {
+            margin: 0 0 8px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            color: var(--accent-color);
+        }
+
+        .mission-card {
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .mission-1 {
+            border-left-color: var(--accent-color); /* ❤️ 玫瑰 */
+            background: linear-gradient(135deg, #ffffff, #fdf3f5);
+        }
+
+        .mission-2 {
+            border-left-color: #c9a05c; /* 🏠 暖金 */
+            background: linear-gradient(135deg, #ffffff, #fdf8f0);
+        }
+
+        .mission-meta {
+            margin: 8px 0 0;
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .store-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 10px 0 0;
+        }
+
+        .store-list li {
+            padding: 7px 0;
+            border-bottom: 1px dashed #f0e1e3;
+            font-size: 0.92rem;
+            margin-bottom: 0;
+        }
+
+        .store-list li:last-child {
+            border-bottom: none;
+        }
+
+        .store-name {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .store-note {
+            color: #888;
+            font-size: 0.85rem;
+        }
+
+        .mission-question {
+            margin-top: 12px;
+            padding: 10px 14px;
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            color: var(--primary-color);
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        .couple-moment {
+            border-left-color: var(--accent-color);
+            background: linear-gradient(135deg, #ffffff, #fdf3f5);
+            text-align: center;
+        }
+
+        .couple-moment .closing-line {
+            margin-top: 8px;
+            font-style: italic;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
         @media (max-width: 600px) {
             .container {
                 padding: 15px;
@@ -267,11 +346,50 @@ width: 100%;
         </div>
 
         <div class="timeline-item">
-            <div class="time-badge">14:00 - 14:30</div>
-            <div class="content-card">
-                <span class="tag">💑 甜蜜散步</span>
-                <h3>華泰名品城漫步</h3>
-                <p>不急著購物，手牽手隨意逛逛，玩個「各自選一樣 500 元以下覺得對方會喜歡的東西」的小遊戲。</p>
+            <div class="time-badge">14:00 - 14:15</div>
+            <div class="content-card mission-card mission-1">
+                <span class="tag">❤️ Mission 1｜記住今天</span>
+                <h3>🎁 找一個紀念今天的小物</h3>
+                <p>找一個小東西，未來再次看到它時，會讓我們想起今天的七夕約會。</p>
+                <p class="mission-meta">建議預算：NT$300–1,500</p>
+                <p>挑選方向：小皮件／卡套／鑰匙圈・小配件・杯子／生活小物・旅行小物・有紀念意義的居家小物</p>
+                <p><strong>🧭 尋寶方向（選逛即可，不用全走）：</strong></p>
+                <ul class="store-list">
+                    <li><span class="store-name">Victorinox 暢貨中心－華泰名品城</span><br><span class="store-note">適合尋找旅行、隨身、生活類小物</span></li>
+                    <li><span class="store-name">hengstyle 恆隆行 outlet 華泰名品城</span><br><span class="store-note">適合尋找生活用品、個人用品、小家電</span></li>
+                    <li><span class="store-name">Tefal 華泰名品城</span><br><span class="store-note">適合尋找生活／廚房類小物</span></li>
+                    <li><span class="store-name">Le Creuset</span><br><span class="store-note">若看到具有紀念價值的小型生活用品，也可納入考慮</span></li>
+                </ul>
+                <div class="mission-question">「什麼東西會讓我們想起今天？」<br>可以一起挑、最後只選一樣；不一定要買。</div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="time-badge">14:15 - 14:28</div>
+            <div class="content-card mission-card mission-2">
+                <span class="tag">🏠 Mission 2｜想像以後</span>
+                <h3>✨ 找一個未來我們會用的東西</h3>
+                <p>找一樣回家後真的會用，而且兩個人都覺得值得的東西。<br>（與 Mission 1 不同：這題是「生活」，不是「回憶」。）</p>
+                <p>挑選方向：居家・廚房／餐具・咖啡用品・收納・家用品・行李配件／收納袋／隨身用品・保溫杯・生活家電・3C 周邊・運動用品</p>
+                <p><strong>🧭 尋寶方向（選逛即可）：</strong></p>
+                <ul class="store-list">
+                    <li><span class="store-name">Le Creuset</span><br><span class="store-note">居家／廚房用品 — 適合思考「未來一起生活會用到什麼」</span></li>
+                    <li><span class="store-name">ZWILLING 德國雙人－華泰名品城</span><br><span class="store-note">廚房、餐飲與居家用品</span></li>
+                    <li><span class="store-name">adidas outlet</span><br><span class="store-note">運動／日常用品</span></li>
+                    <li><span class="store-name">Nike Factory Store－華泰名品城</span><br><span class="store-note">運動／生活用品</span></li>
+                    <li><span class="store-name">UNDER ARMOUR 桃園華泰名品城店</span><br><span class="store-note">運動／日常用品</span></li>
+                </ul>
+                <div class="mission-question">真的值得才買，不為完成任務而買。</div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="time-badge">14:28 - 14:30</div>
+            <div class="content-card mission-card couple-moment">
+                <span class="tag">📸 Couple Moment</span>
+                <h3>💕 拿著 Mission 1 的小物拍一張照片</h3>
+                <p>把今天的紀念小物拿在手上，拍張七夕合照。</p>
+                <p class="closing-line">「一個留住今天，一個想像以後。」</p>
             </div>
         </div>
 
@@ -368,9 +486,19 @@ width: 100%;
                     <td>❤️ 七夕主餐</td>
                 </tr>
                 <tr>
-                    <td>14:00–14:30</td>
-                    <td>華泰名品城散步</td>
-                    <td>💑 兩人專屬漫步</td>
+                    <td>14:00–14:15</td>
+                    <td>❤️ Mission 1｜記住今天</td>
+                    <td>🎁 紀念小物</td>
+                </tr>
+                <tr>
+                    <td>14:15–14:28</td>
+                    <td>🏠 Mission 2｜想像以後</td>
+                    <td>✨ 未來會用的東西</td>
+                </tr>
+                <tr>
+                    <td>14:28–14:30</td>
+                    <td>📸 Couple Moment</td>
+                    <td>💕 留住今天・想像以後</td>
                 </tr>
                 <tr>
                     <td>14:30–15:00</td>
